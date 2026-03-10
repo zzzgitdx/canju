@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>餐聚 SaaS - 餐饮多功能平台</title>
+    <!-- 引入 Lucide 图标库 -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./config.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" crossorigin href="./assets/style-DlxkNfjs.css">
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <a href="./index.html" class="nav-brand">餐聚 SaaS</a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="./index.html" class="nav-link">首页</a></li>
+        <li><a href="./features.html" class="nav-link">产品功能</a></li>
+        <li><a href="./cases.html" class="nav-link">客户案例</a></li>
+        <li><a href="./about.html" class="nav-link">关于我们</a></li>
+        <li><a href="./cooperate.html" class="nav-link">合作加盟</a></li>
+        <li class="nav-actions-mobile">
+          <button
+            class="btn btn-outline"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            商家免费试用
+          </button>
+          <button
+            class="btn btn-primary"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            申请合作
+          </button>
+        </li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="theme-toggle" aria-label="切换主题">
+          <i data-lucide="moon" class="icon"></i>
+        </button>
+        <div class="nav-actions">
+          <button
+            class="btn btn-outline"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            商家免费试用
+          </button>
+          <button
+            class="btn btn-primary"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            申请合作
+          </button>
+        </div>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="菜单">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- 主体内容 -->
+    <main>
+      <!-- Hero 区块 -->
+      <section class="hero reveal">
+        <div class="hero-content">
+          <div class="hero-badge reveal delay-100">
+            <span class="badge-new">NEW</span>
+            <span class="badge-text"
+              >餐聚 SaaS 3.0 全新发布，AI 智能排班上线！</span
+            >
+          </div>
+          <h1 class="text-gradient reveal delay-200">
+            让餐厅经营更简单、更高效
+          </h1>
+          <p class="reveal delay-300">
+            餐聚 SaaS
+            是一款专为本地餐厅打造的多功能小程序，集点餐、外卖、团购、招聘及商家后台管理于一体。帮助餐厅降低成本，提升营收。
+          </p>
+          <div class="hero-actions reveal delay-400">
+            <button
+              class="btn btn-primary btn-large"
+              onclick="location.href = './cooperate.html#contact-manager'"
+            >
+              免费试用14天
+              <i
+                data-lucide="arrow-right"
+                style="width: 20px; height: 20px"
+              ></i>
+            </button>
+            <button
+              class="btn btn-outline btn-large"
+              onclick="location.href = './features.html'"
+            >
+              <i
+                data-lucide="play-circle"
+                style="width: 20px; height: 20px"
+              ></i>
+              观看产品演示
+            </button>
+          </div>
+          <div class="hero-stats reveal delay-500">
+            <div class="stat-item">
+              <span class="stat-num">10,000+</span>
+              <span class="stat-label">合作餐厅</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">5,000万+</span>
+              <span class="stat-label">服务人次</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">99.9%</span>
+              <span class="stat-label">系统稳定性</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-wrapper reveal delay-300">
+          <img referrerPolicy="no-referrer"
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+            alt="餐聚SaaS后台界面"
+            class="hero-dashboard-img"
+            referrerpolicy="no-referrer"
+          />
+          <div class="floating-card card-1">
+            <div class="fc-icon"><i data-lucide="trending-up"></i></div>
+            <div class="fc-content">
+              <div class="fc-title">今日营业额</div>
+              <div class="fc-value">¥ 12,850.00</div>
+              <div class="fc-trend positive">+15%</div>
+            </div>
+          </div>
+          <div class="floating-card card-2">
+            <div
+              class="fc-icon"
+              style="background: rgba(16, 185, 129, 0.1); color: #10b981"
+            >
+              <i data-lucide="shopping-bag"></i>
+            </div>
+            <div class="fc-content">
+              <div class="fc-title">新增外卖订单</div>
+              <div class="fc-value">128 单</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 合作伙伴 Logo 墙 -->
+      <section
+        class="logo-wall section"
+        style="padding: 3rem 5%; border-bottom: 1px solid var(--color-border)"
+      >
+        <p
+          style="
+            text-align: center;
+            color: var(--color-text-secondary);
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          "
+        >
+          深受行业领先品牌的信赖
+        </p>
+        <div class="logo-marquee-container">
+          <!-- 第一行 -->
+          <div class="logo-track track-1">
+            <div class="logo-group">
+              <div class="logo-item">海底捞</div>
+              <div class="logo-item">瑞幸咖啡</div>
+              <div class="logo-item">外婆家</div>
+              <div class="logo-item">喜茶</div>
+              <div class="logo-item">肯德基</div>
+              <div class="logo-item">探鱼</div>
+              <div class="logo-item">茶颜悦色</div>
+              <div class="logo-item">必胜客</div>
+              <div class="logo-item">麦当劳</div>
+              <div class="logo-item">星巴克</div>
+            </div>
+            <div class="logo-group" aria-hidden="true">
+              <div class="logo-item">海底捞</div>
+              <div class="logo-item">瑞幸咖啡</div>
+              <div class="logo-item">外婆家</div>
+              <div class="logo-item">喜茶</div>
+              <div class="logo-item">肯德基</div>
+              <div class="logo-item">探鱼</div>
+              <div class="logo-item">茶颜悦色</div>
+              <div class="logo-item">必胜客</div>
+              <div class="logo-item">麦当劳</div>
+              <div class="logo-item">星巴克</div>
+            </div>
+          </div>
+          <!-- 第二行 -->
+          <div class="logo-track track-2">
+            <div class="logo-group">
+              <div class="logo-item">西贝莜面村</div>
+              <div class="logo-item">老乡鸡</div>
+              <div class="logo-item">星巴克</div>
+              <div class="logo-item">奈雪的茶</div>
+              <div class="logo-item">麦当劳</div>
+              <div class="logo-item">太二酸菜鱼</div>
+              <div class="logo-item">蜜雪冰城</div>
+              <div class="logo-item">海底捞</div>
+              <div class="logo-item">喜茶</div>
+              <div class="logo-item">瑞幸咖啡</div>
+            </div>
+            <div class="logo-group" aria-hidden="true">
+              <div class="logo-item">西贝莜面村</div>
+              <div class="logo-item">老乡鸡</div>
+              <div class="logo-item">星巴克</div>
+              <div class="logo-item">奈雪的茶</div>
+              <div class="logo-item">麦当劳</div>
+              <div class="logo-item">太二酸菜鱼</div>
+              <div class="logo-item">蜜雪冰城</div>
+              <div class="logo-item">海底捞</div>
+              <div class="logo-item">喜茶</div>
+              <div class="logo-item">瑞幸咖啡</div>
+            </div>
+          </div>
+          <!-- 第三行 -->
+          <div class="logo-track track-3">
+            <div class="logo-group">
+              <div class="logo-item">必胜客</div>
+              <div class="logo-item">呷哺呷哺</div>
+              <div class="logo-item">海底捞</div>
+              <div class="logo-item">喜茶</div>
+              <div class="logo-item">瑞幸咖啡</div>
+              <div class="logo-item">外婆家</div>
+              <div class="logo-item">老乡鸡</div>
+              <div class="logo-item">肯德基</div>
+              <div class="logo-item">探鱼</div>
+              <div class="logo-item">茶颜悦色</div>
+            </div>
+            <div class="logo-group" aria-hidden="true">
+              <div class="logo-item">必胜客</div>
+              <div class="logo-item">呷哺呷哺</div>
+              <div class="logo-item">海底捞</div>
+              <div class="logo-item">喜茶</div>
+              <div class="logo-item">瑞幸咖啡</div>
+              <div class="logo-item">外婆家</div>
+              <div class="logo-item">老乡鸡</div>
+              <div class="logo-item">肯德基</div>
+              <div class="logo-item">探鱼</div>
+              <div class="logo-item">茶颜悦色</div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- 核心痛点与解决方案 -->
+      <section
+        class="section"
+        style="background-color: var(--color-bg-secondary)"
+      >
+        <div class="grid-2">
+          <div class="reveal delay-100">
+            <h2
+              class="section-title"
+              style="text-align: left; margin-bottom: 1.5rem"
+            >
+              打破传统餐饮经营困局
+            </h2>
+            <p
+              style="
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+                font-size: 1.15rem;
+                line-height: 1.8;
+              "
+            >
+              餐饮行业竞争日益激烈，高昂的人工成本、被第三方平台抽走的利润、难以沉淀的老客户，正在吞噬您的利润空间。
+            </p>
+
+            <div class="pain-point-list">
+              <div class="pain-point-item">
+                <div class="pp-icon"><i data-lucide="x-circle"></i></div>
+                <div class="pp-content">
+                  <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                    人工成本居高不下
+                  </h4>
+                  <p
+                    style="
+                      color: var(--color-text-secondary);
+                      font-size: 0.95rem;
+                    "
+                  >
+                    点餐、收银、传菜需要大量服务员，招工难且流动性大。
+                  </p>
+                </div>
+              </div>
+              <div class="pain-point-item">
+                <div class="pp-icon"><i data-lucide="x-circle"></i></div>
+                <div class="pp-content">
+                  <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                    外卖平台抽成过高
+                  </h4>
+                  <p
+                    style="
+                      color: var(--color-text-secondary);
+                      font-size: 0.95rem;
+                    "
+                  >
+                    高达 20% 的平台抽成让外卖业务变成“赔本赚吆喝”。
+                  </p>
+                </div>
+              </div>
+              <div class="pain-point-item">
+                <div class="pp-icon"><i data-lucide="x-circle"></i></div>
+                <div class="pp-content">
+                  <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                    缺乏数据支撑决策
+                  </h4>
+                  <p
+                    style="
+                      color: var(--color-text-secondary);
+                      font-size: 0.95rem;
+                    "
+                  >
+                    凭感觉备菜、做营销，无法精准掌握顾客喜好和菜品销量。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reveal delay-200" style="position: relative">
+            <div class="solution-card">
+              <div class="sc-header">
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary); width: 32px; height: 32px"
+                ></i>
+                <h3 style="font-size: 1.5rem; margin-left: 1rem">
+                  餐聚 SaaS 的破局之道
+                </h3>
+              </div>
+              <ul class="sc-list">
+                <li>
+                  <i data-lucide="arrow-right"></i>
+                  <strong>智能扫码点餐</strong>：顾客自助点单结账，节省 30%
+                  前厅人力。
+                </li>
+                <li>
+                  <i data-lucide="arrow-right"></i>
+                  <strong>零抽成自营外卖</strong>：搭建私域小程序，利润 100%
+                  归商家所有。
+                </li>
+                <li>
+                  <i data-lucide="arrow-right"></i>
+                  <strong>全景数据看板</strong
+                  >：多维度报表实时更新，用数据指导经营。
+                </li>
+                <li>
+                  <i data-lucide="arrow-right"></i>
+                  <strong>自动化营销引擎</strong
+                  >：精准触达会员，提升复购率与客单价。
+                </li>
+              </ul>
+              <button
+                class="btn btn-primary"
+                style="width: 100%; margin-top: 2rem"
+                onclick="location.href = './features.html'"
+              >
+                查看完整解决方案
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心功能区块 -->
+      <section class="section">
+        <h2 class="section-title reveal">一站式餐饮解决方案</h2>
+        <p class="section-subtitle reveal delay-100">
+          从前厅点餐到后厨管理，从外卖配送到员工招聘，我们为您提供全方位的数字化支持。
+        </p>
+
+        <div class="grid-3">
+          <div class="card reveal delay-100">
+            <div class="card-icon"><i data-lucide="smartphone"></i></div>
+            <h3 class="card-title">扫码点餐</h3>
+            <p class="card-desc">
+              顾客扫码即刻点餐，支持多人协同点餐，提升翻台率，降低服务员工作量。
+            </p>
+          </div>
+          <div class="card reveal delay-200">
+            <div class="card-icon"><i data-lucide="bike"></i></div>
+            <h3 class="card-title">自营外卖</h3>
+            <p class="card-desc">
+              搭建餐厅专属外卖平台，告别高昂抽成，沉淀私域流量，提升利润空间。
+            </p>
+          </div>
+          <div class="card reveal delay-300">
+            <div class="card-icon"><i data-lucide="ticket"></i></div>
+            <h3 class="card-title">营销团购</h3>
+            <p class="card-desc">
+              灵活设置满减、折扣、套餐等营销活动，吸引新客，提升老客复购率。
+            </p>
+          </div>
+          <div class="card reveal delay-100">
+            <div class="card-icon"><i data-lucide="users"></i></div>
+            <h3 class="card-title">本地招聘</h3>
+            <p class="card-desc">
+              内置餐饮专属招聘模块，快速发布招工信息，精准匹配本地餐饮人才。
+            </p>
+          </div>
+          <div class="card reveal delay-200">
+            <div class="card-icon"><i data-lucide="bar-chart-3"></i></div>
+            <h3 class="card-title">智能后台</h3>
+            <p class="card-desc">
+              多维度数据分析报表，实时掌握菜品销量、营业额趋势，辅助经营决策。
+            </p>
+          </div>
+          <div class="card reveal delay-300">
+            <div class="card-icon"><i data-lucide="handshake"></i></div>
+            <h3 class="card-title">区域合伙人</h3>
+            <p class="card-desc">
+              开放全国区域代理，丰厚的佣金回报，全方位的技术与运营扶持。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 业务流程展示 -->
+      <section
+        class="section"
+        style="background-color: var(--color-bg-secondary)"
+      >
+        <h2 class="section-title reveal">极简的接入流程</h2>
+        <p class="section-subtitle reveal delay-100">
+          无需复杂的硬件部署，只需 4 步，即可开启您的餐厅数字化之旅。
+        </p>
+
+        <div class="process-steps reveal delay-200">
+          <div class="step-item">
+            <div class="step-number">1</div>
+            <h4 class="step-title">注册账号</h4>
+            <p class="step-desc">在线提交申请，免费注册餐聚 SaaS 商家账号。</p>
+          </div>
+          <div class="step-line"></div>
+          <div class="step-item">
+            <div class="step-number">2</div>
+            <h4 class="step-title">配置菜单</h4>
+            <p class="step-desc">
+              上传菜品图片与价格，设置桌台二维码，一键生成菜单。
+            </p>
+          </div>
+          <div class="step-line"></div>
+          <div class="step-item">
+            <div class="step-number">3</div>
+            <h4 class="step-title">员工培训</h4>
+            <p class="step-desc">
+              专属客服提供线上/线下培训，确保员工熟练操作。
+            </p>
+          </div>
+          <div class="step-line"></div>
+          <div class="step-item">
+            <div class="step-number">4</div>
+            <h4 class="step-title">正式上线</h4>
+            <p class="step-desc">
+              顾客扫码点餐，外卖小程序同步上线，开启高效运营。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 社会证明区块 -->
+      <section class="section">
+        <h2 class="section-title reveal">超过 10,000+ 餐厅的信赖之选</h2>
+        <div class="grid-2" style="margin-top: 4rem">
+          <div class="reveal delay-100">
+            <img referrerPolicy="no-referrer"
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+              alt="餐厅使用场景"
+              class="showcase-image"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+          <div class="reveal delay-200">
+            <h3
+              style="
+                font-size: 1.75rem;
+                font-weight: 700;
+                margin-bottom: 1.5rem;
+                letter-spacing: -0.5px;
+              "
+            >
+              “餐聚 SaaS 帮我们节省了 30% 的人力成本”
+            </h3>
+            <p
+              style="
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+                font-size: 1.1rem;
+                line-height: 1.8;
+              "
+            >
+              自从使用了餐聚 SaaS
+              的扫码点餐和智能后台，我们的前厅服务效率大幅提升，点错单的情况几乎不再发生。自营外卖功能更是帮我们省下了一大笔平台抽成费用。
+            </p>
+            <div style="display: flex; align-items: center; gap: 1rem">
+              <div
+                style="
+                  width: 50px;
+                  height: 50px;
+                  background-color: var(--color-primary);
+                  color: white;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-weight: bold;
+                  font-size: 1.2rem;
+                "
+              >
+                张
+              </div>
+              <div>
+                <p style="font-weight: 600; font-size: 1.1rem">张老板</p>
+                <p
+                  style="color: var(--color-text-secondary); font-size: 0.9rem"
+                >
+                  老李家烤肉店 创始人
+                </p>
+              </div>
+            </div>
+            <button
+              class="btn btn-outline"
+              style="margin-top: 2.5rem"
+              onclick="location.href = './cases.html'"
+            >
+              查看更多案例
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA 区块 -->
+      <section
+        class="section reveal"
+        style="
+          text-align: center;
+          background: linear-gradient(
+            135deg,
+            var(--color-primary) 0%,
+            #ff9a76 100%
+          );
+          color: white;
+          border-radius: var(--radius-lg);
+          margin: 0 5% 4rem;
+        "
+      >
+        <h2
+          style="
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.5px;
+          "
+        >
+          准备好提升您的餐厅业绩了吗？
+        </h2>
+        <p style="font-size: 1.25rem; margin-bottom: 3rem; opacity: 0.9">
+          立即注册，免费体验所有高级功能 14 天。
+        </p>
+        <button
+          class="btn btn-large"
+          style="
+            background-color: white;
+            color: var(--color-primary);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          "
+          onclick="location.href = './cooperate.html#contact-manager'"
+        >
+          免费试用 <i data-lucide="arrow-right"></i>
+        </button>
+      </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">餐聚 SaaS</div>
+          <p class="footer-desc">
+            致力于为本地餐饮企业提供高效、易用的数字化经营解决方案，让天下没有难做的餐饮生意。
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-title">产品</h4>
+          <ul class="footer-links">
+            <li><a href="./features.html#order">扫码点餐</a></li>
+            <li><a href="./features.html#delivery">自营外卖</a></li>
+            <li><a href="./features.html#marketing">营销团购</a></li>
+            <li><a href="./features.html#admin">智能后台</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">关于</h4>
+          <ul class="footer-links">
+            <li><a href="./about.html">品牌故事</a></li>
+            <li><a href="./cases.html">客户案例</a></li>
+            <li><a href="./cooperate.html">招商加盟</a></li>
+            <li><a href="#">联系我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">联系方式</h4>
+          <ul class="footer-links">
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="phone" style="width: 16px; height: 16px"></i>
+              400-123-4567
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="mail" style="width: 16px; height: 16px"></i>
+              contact@canju.com
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="map-pin" style="width: 16px; height: 16px"></i>
+              北京市朝阳区科技园 88 号
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 餐聚 SaaS 版权所有.</div>
+    </footer>
+  </body>
+</html>

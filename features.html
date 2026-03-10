@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>产品功能 - 餐聚 SaaS</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./config.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" crossorigin href="./assets/style-DlxkNfjs.css">
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <a href="./index.html" class="nav-brand">餐聚 SaaS</a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="./index.html" class="nav-link">首页</a></li>
+        <li><a href="./features.html" class="nav-link active">产品功能</a></li>
+        <li><a href="./cases.html" class="nav-link">客户案例</a></li>
+        <li><a href="./about.html" class="nav-link">关于我们</a></li>
+        <li><a href="./cooperate.html" class="nav-link">合作加盟</a></li>
+        <li class="nav-actions-mobile">
+          <button
+            class="btn btn-outline"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            商家免费试用
+          </button>
+          <button
+            class="btn btn-primary"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            申请合作
+          </button>
+        </li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="theme-toggle" aria-label="切换主题">
+          <i data-lucide="moon" class="icon"></i>
+        </button>
+        <div class="nav-actions">
+          <button
+            class="btn btn-outline"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            商家免费试用
+          </button>
+          <button
+            class="btn btn-primary"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            申请合作
+          </button>
+        </div>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="菜单">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- 主体内容 -->
+    <main>
+      <section class="hero reveal">
+        <h1 class="text-gradient">全场景餐饮数字化解决方案</h1>
+        <p>
+          从堂食点餐到外卖配送，从营销拓客到员工招聘，餐聚 SaaS
+          为您提供一站式服务，全面提升餐厅运营效率与盈利能力。
+        </p>
+        <div class="scroll-down-indicator" onclick="window.scrollBy({top: window.innerHeight * 0.8, behavior: 'smooth'})">
+          <i data-lucide="chevron-down"></i>
+          <span>继续下滑</span>
+        </div>
+      </section>
+
+      <section class="section" id="order">
+        <div class="grid-2">
+          <div class="reveal delay-100">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+              "
+            >
+              <div class="card-icon" style="margin-bottom: 0">
+                <i data-lucide="smartphone"></i>
+              </div>
+              <h2
+                class="section-title"
+                style="margin-bottom: 0; text-align: left"
+              >
+                智能扫码点餐
+              </h2>
+            </div>
+            <p
+              style="
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+                font-size: 1.15rem;
+                line-height: 1.8;
+              "
+            >
+              告别传统纸质菜单，顾客落座即扫码，多人协同点餐，后厨自动接单打印，大幅提升翻台率。
+            </p>
+            <ul
+              style="
+                list-style-type: none;
+                padding-left: 0;
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+              "
+            >
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                支持多人同时扫码点单，实时同步购物车
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                菜品分类清晰，支持多规格、加料选择
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                支持预点单，顾客到店即食，减少等待时间
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                结账方式灵活，支持 AA 制、代付等多种场景
+              </li>
+            </ul>
+          </div>
+          <div class="reveal delay-200">
+            <img referrerPolicy="no-referrer"
+              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80"
+              alt="扫码点餐"
+              class="showcase-image"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section"
+        id="delivery"
+        style="background-color: var(--color-bg-secondary)"
+      >
+        <div class="grid-2">
+          <div style="order: 2" class="reveal delay-200">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+              "
+            >
+              <div class="card-icon" style="margin-bottom: 0">
+                <i data-lucide="bike"></i>
+              </div>
+              <h2
+                class="section-title"
+                style="margin-bottom: 0; text-align: left"
+              >
+                零抽成自营外卖
+              </h2>
+            </div>
+            <p
+              style="
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+                font-size: 1.15rem;
+                line-height: 1.8;
+              "
+            >
+              搭建餐厅专属的微信小程序外卖平台，摆脱第三方平台高昂抽成，将客户数据掌握在自己手中。
+            </p>
+            <ul
+              style="
+                list-style-type: none;
+                padding-left: 0;
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+              "
+            >
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                无平台抽成，利润全归商家所有
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                支持对接第三方同城配送（达达、顺丰同城等）
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                灵活设置配送范围、起送价、配送费
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                沉淀私域流量，便于后续精准营销
+              </li>
+            </ul>
+          </div>
+          <div style="order: 1" class="reveal delay-100">
+            <img referrerPolicy="no-referrer"
+              src="https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=800&q=80"
+              alt="自营外卖"
+              class="showcase-image"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="marketing">
+        <div class="grid-2">
+          <div class="reveal delay-100">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+              "
+            >
+              <div class="card-icon" style="margin-bottom: 0">
+                <i data-lucide="ticket"></i>
+              </div>
+              <h2
+                class="section-title"
+                style="margin-bottom: 0; text-align: left"
+              >
+                多元化营销团购
+              </h2>
+            </div>
+            <p
+              style="
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+                font-size: 1.15rem;
+                line-height: 1.8;
+              "
+            >
+              内置丰富的营销工具，帮助餐厅轻松开展促销活动，吸引新客到店，提升老客复购率。
+            </p>
+            <ul
+              style="
+                list-style-type: none;
+                padding-left: 0;
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+              "
+            >
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                支持满减、折扣、代金券、特价菜等多种活动
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                推出超值套餐团购，提升客单价
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                会员积分系统，消费返积分，积分兑换菜品
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                节日营销模板一键应用，省时省力
+              </li>
+            </ul>
+          </div>
+          <div class="reveal delay-200">
+            <img referrerPolicy="no-referrer"
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
+              alt="营销团购"
+              class="showcase-image"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section"
+        id="recruit"
+        style="background-color: var(--color-bg-secondary)"
+      >
+        <div class="grid-2">
+          <div style="order: 2" class="reveal delay-200">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+              "
+            >
+              <div class="card-icon" style="margin-bottom: 0">
+                <i data-lucide="users"></i>
+              </div>
+              <h2
+                class="section-title"
+                style="margin-bottom: 0; text-align: left"
+              >
+                餐饮专属本地招聘
+              </h2>
+            </div>
+            <p
+              style="
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+                font-size: 1.15rem;
+                line-height: 1.8;
+              "
+            >
+              解决餐饮行业招工难、流动性大的痛点，提供垂直于本地餐饮人才的招聘模块。
+            </p>
+            <ul
+              style="
+                list-style-type: none;
+                padding-left: 0;
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+              "
+            >
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                一键发布服务员、厨师、店长等招工信息
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                基于地理位置推荐附近求职者，提高匹配效率
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                支持在线沟通、视频面试，快速锁定人才
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                建立餐厅人才库，随时储备优秀员工
+              </li>
+            </ul>
+          </div>
+          <div style="order: 1" class="reveal delay-100">
+            <img referrerPolicy="no-referrer"
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80"
+              alt="本地招聘"
+              class="showcase-image"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="admin">
+        <div class="grid-2">
+          <div class="reveal delay-100">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+              "
+            >
+              <div class="card-icon" style="margin-bottom: 0">
+                <i data-lucide="bar-chart-3"></i>
+              </div>
+              <h2
+                class="section-title"
+                style="margin-bottom: 0; text-align: left"
+              >
+                智能数据后台
+              </h2>
+            </div>
+            <p
+              style="
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+                font-size: 1.15rem;
+                line-height: 1.8;
+              "
+            >
+              提供多维度的数据分析报表，让餐厅经营状况一目了然，用数据驱动科学决策。
+            </p>
+            <ul
+              style="
+                list-style-type: none;
+                padding-left: 0;
+                color: var(--color-text-secondary);
+                margin-bottom: 2rem;
+              "
+            >
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                实时查看营业额、订单量、客单价趋势
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                菜品销量排行分析，优化菜单结构
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                会员画像与消费偏好分析，精准营销
+              </li>
+              <li
+                style="
+                  margin-bottom: 1rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  style="color: var(--color-primary)"
+                ></i>
+                支持多门店连锁管理，数据统一汇总
+              </li>
+            </ul>
+          </div>
+          <div class="reveal delay-200">
+            <img referrerPolicy="no-referrer"
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+              alt="智能后台"
+              class="showcase-image"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section reveal"
+        style="
+          text-align: center;
+          background: linear-gradient(
+            135deg,
+            var(--color-primary) 0%,
+            #ff9a76 100%
+          );
+          color: white;
+          border-radius: var(--radius-lg);
+          margin: 0 5% 4rem;
+        "
+      >
+        <h2
+          style="
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.5px;
+          "
+        >
+          准备好提升您的餐厅业绩了吗？
+        </h2>
+        <p style="font-size: 1.25rem; margin-bottom: 3rem; opacity: 0.9">
+          立即注册，免费体验所有高级功能 14 天。
+        </p>
+        <button
+          class="btn btn-large"
+          style="
+            background-color: white;
+            color: var(--color-primary);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          "
+          onclick="location.href = './cooperate.html#contact-manager'"
+        >
+          免费试用 <i data-lucide="arrow-right"></i>
+        </button>
+      </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">餐聚 SaaS</div>
+          <p class="footer-desc">
+            致力于为本地餐饮企业提供高效、易用的数字化经营解决方案，让天下没有难做的餐饮生意。
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-title">产品</h4>
+          <ul class="footer-links">
+            <li><a href="./features.html#order">扫码点餐</a></li>
+            <li><a href="./features.html#delivery">自营外卖</a></li>
+            <li><a href="./features.html#marketing">营销团购</a></li>
+            <li><a href="./features.html#admin">智能后台</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">关于</h4>
+          <ul class="footer-links">
+            <li><a href="./about.html">品牌故事</a></li>
+            <li><a href="./cases.html">客户案例</a></li>
+            <li><a href="./cooperate.html">招商加盟</a></li>
+            <li><a href="#">联系我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">联系方式</h4>
+          <ul class="footer-links">
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="phone" style="width: 16px; height: 16px"></i>
+              400-123-4567
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="mail" style="width: 16px; height: 16px"></i>
+              contact@canju.com
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="map-pin" style="width: 16px; height: 16px"></i>
+              北京市朝阳区科技园 88 号
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 餐聚 SaaS 版权所有.</div>
+    </footer>
+  </body>
+</html>

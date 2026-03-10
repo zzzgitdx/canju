@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>客户案例 - 餐聚 SaaS</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./config.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" crossorigin href="./assets/style-DlxkNfjs.css">
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <a href="./index.html" class="nav-brand">餐聚 SaaS</a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="./index.html" class="nav-link">首页</a></li>
+        <li><a href="./features.html" class="nav-link">产品功能</a></li>
+        <li><a href="./cases.html" class="nav-link active">客户案例</a></li>
+        <li><a href="./about.html" class="nav-link">关于我们</a></li>
+        <li><a href="./cooperate.html" class="nav-link">合作加盟</a></li>
+        <li class="nav-actions-mobile">
+          <button
+            class="btn btn-outline"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            商家免费试用
+          </button>
+          <button
+            class="btn btn-primary"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            申请合作
+          </button>
+        </li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="theme-toggle" aria-label="切换主题">
+          <i data-lucide="moon" class="icon"></i>
+        </button>
+        <div class="nav-actions">
+          <button
+            class="btn btn-outline"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            商家免费试用
+          </button>
+          <button
+            class="btn btn-primary"
+            onclick="location.href = './cooperate.html#contact-manager'"
+          >
+            申请合作
+          </button>
+        </div>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="菜单">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- 主体内容 -->
+    <main>
+      <section class="hero reveal">
+        <h1 class="text-gradient">成功案例，见证数字化转型力量</h1>
+        <p>
+          超过 10,000 家餐厅正在使用餐聚 SaaS
+          提升运营效率，增加营业收入。看看他们是如何做到的。
+        </p>
+        <div class="scroll-down-indicator" onclick="window.scrollBy({top: window.innerHeight * 0.8, behavior: 'smooth'})">
+          <i data-lucide="chevron-down"></i>
+          <span>继续下滑</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="grid-3">
+          <!-- 案例 1 -->
+          <div class="card reveal delay-100">
+            <div class="card-image-wrapper">
+              <img referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80"
+                alt="川香阁火锅"
+                class="card-image"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <h3 class="card-title">川香阁火锅</h3>
+            <p class="card-desc" style="margin-bottom: 1.5rem">
+              “引入扫码点餐后，翻台率提升了
+              20%，服务员也能腾出更多时间提供优质服务。”
+            </p>
+            <div
+              style="
+                display: flex;
+                gap: 1.5rem;
+                border-top: 1px solid var(--color-border);
+                padding-top: 1.5rem;
+              "
+            >
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  +20%
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  翻台率提升
+                </div>
+              </div>
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  -15%
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  人工成本下降
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 案例 2 -->
+          <div class="card reveal delay-200">
+            <div class="card-image-wrapper">
+              <img referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=600&q=80"
+                alt="老李家烤肉"
+                class="card-image"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <h3 class="card-title">老李家烤肉</h3>
+            <p class="card-desc" style="margin-bottom: 1.5rem">
+              “自建外卖小程序让我们摆脱了高昂的平台抽成，利润率显著提高，老顾客也更愿意在小程序下单。”
+            </p>
+            <div
+              style="
+                display: flex;
+                gap: 1.5rem;
+                border-top: 1px solid var(--color-border);
+                padding-top: 1.5rem;
+              "
+            >
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  +35%
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  外卖利润率
+                </div>
+              </div>
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  5000+
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  私域会员积累
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 案例 3 -->
+          <div class="card reveal delay-300">
+            <div class="card-image-wrapper">
+              <img referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=600&q=80"
+                alt="悦己轻食"
+                class="card-image"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <h3 class="card-title">悦己轻食</h3>
+            <p class="card-desc" style="margin-bottom: 1.5rem">
+              “通过营销团购功能推出的减脂套餐非常受欢迎，结合会员积分，复购率达到了惊人的
+              60%。”
+            </p>
+            <div
+              style="
+                display: flex;
+                gap: 1.5rem;
+                border-top: 1px solid var(--color-border);
+                padding-top: 1.5rem;
+              "
+            >
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  60%
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  老客复购率
+                </div>
+              </div>
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  +40%
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  客单价提升
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 案例 4 -->
+          <div class="card reveal delay-100">
+            <div class="card-image-wrapper">
+              <img referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=600&q=80"
+                alt="大娘水饺"
+                class="card-image"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <h3 class="card-title">大娘水饺 (连锁)</h3>
+            <p class="card-desc" style="margin-bottom: 1.5rem">
+              “智能后台的多门店管理功能太强大了，总部可以实时监控各分店数据，统一调整菜单和营销策略。”
+            </p>
+            <div
+              style="
+                display: flex;
+                gap: 1.5rem;
+                border-top: 1px solid var(--color-border);
+                padding-top: 1.5rem;
+              "
+            >
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  12家
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  统一管理门店
+                </div>
+              </div>
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  100%
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  数据实时同步
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 案例 5 -->
+          <div class="card reveal delay-200">
+            <div class="card-image-wrapper">
+              <img referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=600&q=80"
+                alt="深夜食堂"
+                class="card-image"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <h3 class="card-title">深夜食堂居酒屋</h3>
+            <p class="card-desc" style="margin-bottom: 1.5rem">
+              “以前招服务员很难，现在用本地招聘模块，发布信息后很快就能收到附近求职者的简历，效率极高。”
+            </p>
+            <div
+              style="
+                display: flex;
+                gap: 1.5rem;
+                border-top: 1px solid var(--color-border);
+                padding-top: 1.5rem;
+              "
+            >
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  3天
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  平均招聘周期
+                </div>
+              </div>
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  90%
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  岗位匹配度
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 案例 6 -->
+          <div class="card reveal delay-300">
+            <div class="card-image-wrapper">
+              <img referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&q=80"
+                alt="星空咖啡"
+                class="card-image"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <h3 class="card-title">星空咖啡</h3>
+            <p class="card-desc" style="margin-bottom: 1.5rem">
+              “预点单功能完美契合了早高峰上班族的需求，顾客在路上点单，到店即取，大大提升了早间营业额。”
+            </p>
+            <div
+              style="
+                display: flex;
+                gap: 1.5rem;
+                border-top: 1px solid var(--color-border);
+                padding-top: 1.5rem;
+              "
+            >
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  +50%
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  早间营业额
+                </div>
+              </div>
+              <div>
+                <div
+                  style="
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                    color: var(--color-primary);
+                    letter-spacing: -1px;
+                  "
+                >
+                  0排队
+                </div>
+                <div
+                  style="
+                    font-size: 0.9rem;
+                    color: var(--color-text-secondary);
+                    font-weight: 500;
+                  "
+                >
+                  高峰期体验
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section reveal"
+        style="
+          background-color: var(--color-bg-secondary);
+          text-align: center;
+          border-radius: var(--radius-lg);
+          margin: 0 5% 4rem;
+          padding: 6rem 5%;
+        "
+      >
+        <h2 class="section-title">成为下一个成功案例</h2>
+        <p
+          style="
+            color: var(--color-text-secondary);
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            font-size: 1.15rem;
+            line-height: 1.8;
+          "
+        >
+          无论您是单店经营还是连锁品牌，餐聚 SaaS
+          都能为您量身定制数字化解决方案。
+        </p>
+        <button
+          class="btn btn-primary btn-large"
+          onclick="location.href = './cooperate.html#contact-manager'"
+        >
+          立即申请试用 <i data-lucide="arrow-right"></i>
+        </button>
+      </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">餐聚 SaaS</div>
+          <p class="footer-desc">
+            致力于为本地餐饮企业提供高效、易用的数字化经营解决方案，让天下没有难做的餐饮生意。
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-title">产品</h4>
+          <ul class="footer-links">
+            <li><a href="./features.html#order">扫码点餐</a></li>
+            <li><a href="./features.html#delivery">自营外卖</a></li>
+            <li><a href="./features.html#marketing">营销团购</a></li>
+            <li><a href="./features.html#admin">智能后台</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">关于</h4>
+          <ul class="footer-links">
+            <li><a href="./about.html">品牌故事</a></li>
+            <li><a href="./cases.html">客户案例</a></li>
+            <li><a href="./cooperate.html">招商加盟</a></li>
+            <li><a href="#">联系我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">联系方式</h4>
+          <ul class="footer-links">
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="phone" style="width: 16px; height: 16px"></i>
+              400-123-4567
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="mail" style="width: 16px; height: 16px"></i>
+              contact@canju.com
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.5rem">
+              <i data-lucide="map-pin" style="width: 16px; height: 16px"></i>
+              北京市朝阳区科技园 88 号
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 餐聚 SaaS 版权所有.</div>
+    </footer>
+  </body>
+</html>
