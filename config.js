@@ -5,7 +5,7 @@
  */
 window.SiteConfig = {
   // 系统名称
-  systemName: "餐聚",
+  systemName: "觅食指南",
   
   // 系统 Logo (建议使用透明背景的 PNG 格式)
   // 如果留空 ""，则只显示文字
